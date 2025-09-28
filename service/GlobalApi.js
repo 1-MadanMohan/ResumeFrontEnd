@@ -5,6 +5,8 @@
     const axiosClient=axios.create({
         baseURL:import.meta.env.VITE_API_BASE_URL+"/api/",
         // baseURL: 'http://localhost:1337/api/',
+        // baseURL: 'https://refined-ducks-8c674c3ed4.strapiapp.com/api/',
+
         headers:{
             'Content-Type':'application/json',
             'Authorization':`Bearer ${API_KEY}`
