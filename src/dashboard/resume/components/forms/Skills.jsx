@@ -24,6 +24,13 @@ function Skills() {
         resumeInfo&&setSkillsList(resumeInfo?.skills)
       },[])
    
+
+//     useEffect(() => {
+//   if (Array.isArray(resumeInfo?.skills) && resumeInfo.skills.length > 0) {
+//     setSkillsList(resumeInfo.skills);
+//   }
+// }, [resumeInfo]);
+
     const handleChange=(index,name,value)=>{
         const newEntries=skillsList.slice();
       
