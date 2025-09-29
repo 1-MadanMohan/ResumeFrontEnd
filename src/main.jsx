@@ -38,8 +38,8 @@ const router=createBrowserRouter([
   },
   {
     path:'/my-resume/:resumeId/view',
-    // element:<ViewResume/>
-            element:<EditResume/>
+    element:<ViewResume/>
+            // element:<EditResume/> Now it is clear some problem with this element
 
   }
 ])
