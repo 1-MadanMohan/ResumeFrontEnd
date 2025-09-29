@@ -25,8 +25,8 @@ const router=createBrowserRouter([
       },
       {
         path:'/dashboard/resume/:resumeId/edit',
-        // element:<EditResume/>
-                 element:<ViewResume/>
+        element:<EditResume/>
+                 // element:<ViewResume/> //clearly something is mistake with this element, let me check the route once
 
       },
     ]
@@ -38,7 +38,9 @@ const router=createBrowserRouter([
   },
   {
     path:'/my-resume/:resumeId/view',
-    element:<ViewResume/>
+    // element:<ViewResume/>
+            element:<EditResume/>
+
   }
 ])
 
